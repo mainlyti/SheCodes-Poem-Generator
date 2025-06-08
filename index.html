@@ -14,19 +14,22 @@
         <h1>AI Poem Generator</h1>
       </header>
       <main>
-        <form id="poem-form">
-          <input
-            type="text"
-            placeholder="Enter topic"
-            autofocus
-            required
-            autocomplete="off"
-            class="prompt"
-            id="user-prompt"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-form">
+            <input
+              type="text"
+              placeholder="Enter topic for poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="prompt"
+              id="user-prompt"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="example">i.e: Dog, Flower, Honey</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         Coded by Tianna Mendoza, open-sourced on
